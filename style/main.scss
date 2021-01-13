@@ -11,8 +11,6 @@ body{
     background-color: #151B2B;
     color: #FFFFFF;
 
-
-
     &__banner{
         padding-top: 15px;
         height: 100px;
@@ -30,6 +28,7 @@ body{
 
         &__text{
             padding-top: 80px;
+            
 
             display: flex;
             width: 40%;
@@ -38,15 +37,16 @@ body{
 
             transform: translateY(40px);
             transition: all 400ms ease-in-out;
-            transition-delay: 3000ms; //a changer delai 
 
             &__title{
                 font-size: 46px;
                 font-weight: 600;
+                color: #FFFFFF;
             }
 
             &__description{
                 font-size: 25px;
+                color: #FFFFFF;
             }
 
             &__more{

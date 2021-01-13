@@ -31,14 +31,15 @@ body {
   align-items: left;
   transform: translateY(40px);
   transition: all 400ms ease-in-out;
-  transition-delay: 3000ms;
 }
 #header__content__text__title {
   font-size: 46px;
   font-weight: 600;
+  color: #FFFFFF;
 }
 #header__content__text__description {
   font-size: 25px;
+  color: #FFFFFF;
 }
 #header__content__text__more {
   color: #8686B2;
