@@ -3,7 +3,6 @@ body{
     padding: 0px;
     font-family: 'Montserrat', 'sans-serif';
     background-color: #F9F9FD;
-    color: #FFFFFF;
 }
 
 #header{
@@ -88,11 +87,8 @@ body{
         }
 
         &__illustration{
+            padding-top: -100px;
             padding-bottom: 100px;
-
-            transform: translateY(40px);
-            transition: all 350ms ease-in-out;
-            transition-delay: 50ms;
         }
 
     }
