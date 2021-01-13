@@ -3,7 +3,6 @@ body{
     padding: 0px;
     font-family: 'Montserrat', 'sans-serif';
     background-color: #F9F9FD;
-    color: #FFFFFF;
 }
 
 #header{
@@ -25,9 +24,7 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-
         &__text{
-            padding-top: 80px;
             
 
             display: flex;
@@ -89,7 +86,7 @@ body{
         }
 
         &__illustration{
-            padding-bottom: 100px;
+            padding-top: -100px;
 
             transform: translateY(40px);
             transition: all 350ms ease-in-out;
